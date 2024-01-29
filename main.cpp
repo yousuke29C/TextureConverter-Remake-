@@ -3,22 +3,16 @@
 #include <DirectXTex.h>
 #include "TextureConverter.h"
 
-int main(int argc, char* argv[]) {
-
-	for (int i = 0; i < argc; i++) {
-
-		printf("argv[i]");
-
-		printf("\n");
-
-	}
-
 	enum Argument {
 		kApplicationPath,
 		kFilePath,
 
 		NumArgument
 	};
+
+
+int main(int argc, char* argv[]) {
+
 
 	assert(argc >= NumArgument);
 
